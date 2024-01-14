@@ -34,8 +34,11 @@ function ParallaxVersion() {
     else if(windowSize[0] < 1280){
       setSize(["m", 2])
     }
-    else{
+    else if(windowSize[0] < 1680){
       setSize(["l", 3])
+    }
+    else{
+      setSize(["xl", 4])
     }
   }
 
@@ -47,9 +50,9 @@ function ParallaxVersion() {
       page2: {offset: 1.6}, //D
       page3: {offset: 3},
       page4: {offset: 5.7},
-      parallax1: {offset: 0.6}, //D
+      parallax1: {offset: 0.7}, //D
       parallax2: {offset: 6},
-      parallax3: {offset: 4.7}
+      parallax3: {offset: 4.99}
     },
     "s": {
       pages: 6.5,
@@ -79,7 +82,17 @@ function ParallaxVersion() {
       page4: {offset: 3},
       parallax1: {offset: 0.1}, //D
       parallax2: {offset: 1},
-      parallax3: {offset: 2.1}
+      parallax3: {offset: 2.05}
+    },
+    "xl": {
+      pages: 2.6,
+      page1: {offset: 0, factor: 1.3}, //D
+      page2: {offset: 0.99}, //D
+      page3: {offset: 1.4},
+      page4: {offset: 2.},
+      parallax1: {offset: 0}, //D
+      parallax2: {offset: 0.9},
+      parallax3: {offset: 1.4}
     }
   }
 
@@ -107,8 +120,11 @@ function ParallaxVersion() {
     else if(windowSize[0] < 1280){
       setSize(["m", 2])
     }
-    else{
+    else if(windowSize[0] < 1680){
       setSize(["l", 3])
+    }
+    else{
+      setSize(["xl", 4])
     }
   }, [windowSize[0]]);
 
