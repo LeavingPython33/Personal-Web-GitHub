@@ -34,6 +34,9 @@ function ParallaxVersion() {
     else if(windowSize[0] < 1280){
       setSize(["m", 2])
     }
+    else if(windowSize[0] < 1400){
+      setSize(["sl", 2.5])
+    }
     else if(windowSize[0] < 1680){
       setSize(["l", 3])
     }
@@ -49,7 +52,7 @@ function ParallaxVersion() {
       page1: {offset: 0, factor: 1.6}, //D
       page2: {offset: 1.6}, //D
       page3: {offset: 3},
-      page4: {offset: 5.7},
+      page4: {offset: 5.9},
       parallax1: {offset: 0.7}, //D
       parallax2: {offset: 6},
       parallax3: {offset: 4.99}
@@ -59,7 +62,7 @@ function ParallaxVersion() {
       page1: {offset: 0, factor: 1.8}, //D
       page2: {offset: 1.7}, //D
       page3: {offset: 2.9},
-      page4: {offset: 4.3},
+      page4: {offset: 4.25},
       parallax1: {offset: 0.6}, //D
       parallax2: {offset: 6},
       parallax3: {offset: 3.3}
@@ -69,10 +72,20 @@ function ParallaxVersion() {
       page1: {offset: 0, factor: 1.3}, //D
       page2: {offset: 1}, //D
       page3: {offset: 2.3},
-      page4: {offset: 3.9},
+      page4: {offset: 3.85},
       parallax1: {offset: 0.1}, //D
       parallax2: {offset: 1.5},
       parallax3: {offset: 2.9}
+    },  
+    "sl": {
+      pages: 4,
+      page1: {offset: 0, factor: 1.3}, //D
+      page2: {offset: 1}, //D
+      page3: {offset: 2},
+      page4: {offset: 3.55},
+      parallax1: {offset: 0.1}, //D
+      parallax2: {offset: 1},
+      parallax3: {offset: 2.6}
     },
     "l": {
       pages: 3.6,
@@ -119,6 +132,9 @@ function ParallaxVersion() {
     }
     else if(windowSize[0] < 1280){
       setSize(["m", 2])
+    }
+    else if(windowSize[0] < 1400){
+      setSize(["sl", 2.5])
     }
     else if(windowSize[0] < 1680){
       setSize(["l", 3])
