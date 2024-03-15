@@ -38,7 +38,7 @@ function Welcome() {
                                     </a>
                                 </Col>
                                 <Col className="text-center text-primary">
-                                    <a href="">
+                                    <a href="https://www.linkedin.com/in/alfred-tapia-07b1582b7/" target="_blank">
                                         <i class="bi bi-linkedin iconTransform"></i>
                                     </a>
                                 </Col>
