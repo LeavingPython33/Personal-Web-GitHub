@@ -50,6 +50,8 @@ function Welcome() {
                                     </a>
                                 </Col>
                                 <Col className="text-center text-primary">
+                                </Col>
+                                <Col className="text-center text-primary">
                                     <a href="https://www.instagram.com/leavingpython?igsh=aXFhaGdzaDB0aTI4&utm_source=qr" target="_blank">
                                         <i class="bi bi-instagram iconTransform"></i>
                                     </a>

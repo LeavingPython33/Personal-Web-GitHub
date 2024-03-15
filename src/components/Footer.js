@@ -24,7 +24,6 @@ export default function Footer() {
                             <li class="nav-item mb-2"><a href="https://github.com/LeavingPython33" target="_blank" class="nav-link p-0 footerText">Github</a></li>
                             <li class="nav-item mb-2"><a href="https://leavingpython33.itch.io/" target="_blank" class="nav-link p-0 footerText">Itch.io</a></li>
                             <li class="nav-item mb-2"><a href="#" target="_blank" class="nav-link p-0 footerText">linkedin</a></li>
-                            <li class="nav-item mb-2"><a href="https://www.youtube.com/@python9080/featured" target="_blank" class="nav-link p-0 footerText">Youtube</a></li>
                             <li class="nav-item mb-2"><a href="https://www.instagram.com/leavingpython?igsh=aXFhaGdzaDB0aTI4&utm_source=qr" target="_blank" class="nav-link p-0 footerText">Instagram</a></li>
                         </ul>
                     </Col>
