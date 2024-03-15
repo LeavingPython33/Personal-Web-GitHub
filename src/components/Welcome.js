@@ -50,11 +50,6 @@ function Welcome() {
                                     </a>
                                 </Col>
                                 <Col className="text-center text-primary">
-                                    <a href="https://www.youtube.com/@python9080/featured" target="_blank">
-                                        <i class="bi bi-youtube iconTransform"></i>
-                                    </a>
-                                </Col>
-                                <Col className="text-center text-primary">
                                     <a href="https://www.instagram.com/leavingpython?igsh=aXFhaGdzaDB0aTI4&utm_source=qr" target="_blank">
                                         <i class="bi bi-instagram iconTransform"></i>
                                     </a>
